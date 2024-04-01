@@ -26,11 +26,11 @@ export const projects = [
       link: "https://jsbootcamp.com",
     },
     {
-      title: "API Fething Site",
+      title: "Weather Forecast Website",
       subtitle: "Webtechnology and API",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./Images/API Fetching.png",
+      image: "./Images/weather.png",
       link: "https://pythonbootcamp.com",
     },
   ];
