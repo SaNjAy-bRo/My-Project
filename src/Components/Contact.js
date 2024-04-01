@@ -1,5 +1,3 @@
-// src/components/Contact.js
-
 import React from "react";
 
 export default function Contact() {
@@ -32,25 +30,34 @@ export default function Contact() {
               <h2 className="text-xs font-semibold tracking-widest text-white title-font">
                 EMAIL
               </h2>
-              <a className="leading-relaxed text-indigo-400" href="mailto:">
+              <a className="leading-relaxed text-indigo-400" href="mailto:Sanjayconnecting007@email.com">
                 Sanjayconnecting007@email.com
               </a>
               <h2 className="mt-4 text-xs font-semibold tracking-widest text-white title-font">
                 PHONE
               </h2>
               <p className="leading-relaxed">7338514739</p>
+              <h2 className="mt-4 text-xs font-semibold tracking-widest text-white title-font">
+                LINKEDIN
+              </h2>
+              <a className="leading-relaxed text-indigo-400" href="https://www.linkedin.com/in/sanjay-kumar-9639a6257" target="_blank" rel="noopener noreferrer">
+                My LinkedIn Profile
+              </a>
             </div>
           </div>
         </div>
         <form
-          netlify
           name="contact"
-          className="flex flex-col w-full mt-8 lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0">
+          method="POST"
+          className="flex flex-col w-full mt-8 lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0"
+        >
           <h2 className="mb-1 text-3xl font-medium text-white sm:text-4xl title-font">
             Hire Me
           </h2>
           <p className="mb-5 leading-relaxed">
-          As a fresh and passionate graduate, I am eager to contribute my skills and enthusiasm to a dynamic team. Let's connect and explore how I can bring a fresh perspective to your projects.
+            As a fresh and passionate graduate, I am eager to contribute my
+            skills and enthusiasm to a dynamic team. Let's connect and explore
+            how I can bring a fresh perspective to your projects.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="text-sm leading-7 text-gray-400">
@@ -77,7 +84,8 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="text-sm leading-7 text-gray-400">
+              className="text-sm leading-7 text-gray-400"
+            >
               Message
             </label>
             <textarea
@@ -88,7 +96,8 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">
+            className="px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600"
+          >
             Submit
           </button>
         </form>
